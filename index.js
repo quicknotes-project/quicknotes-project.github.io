@@ -1,3 +1,4 @@
-import urls from './urls.json'
-
-console.log(JSON.stringify(urls))
+fetch('./urls.json')
+  .then((res) => res.json())
+  .then(JSON.stringify)
+  .then(console.log)
