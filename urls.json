@@ -1,14 +1,14 @@
 [
   {
-    "name": "console",
-    "public_url": "tcp://0.tcp.eu.ngrok.io:19314"
-  },
-  {
     "name": "web-client",
     "public_url": "https://1c5e-212-45-15-105.eu.ngrok.io"
   },
   {
     "name": "status",
     "public_url": "https://9026-212-45-15-105.eu.ngrok.io"
+  },
+  {
+    "name": "console",
+    "public_url": "tcp://0.tcp.eu.ngrok.io:19314"
   }
 ]
