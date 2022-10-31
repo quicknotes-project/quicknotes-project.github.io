@@ -1,3 +1,10 @@
-{
-  "debug": true
-}
+[
+  {
+    "name": "status",
+    "public_url": "https://fcdb-212-45-15-105.eu.ngrok.io"
+  },
+  {
+    "name": "web-client",
+    "public_url": "https://735c-212-45-15-105.eu.ngrok.io"
+  }
+]
