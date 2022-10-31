@@ -8,17 +8,14 @@
   <title>Redirect</title>
 </head>
 <script>
-  fetch('./urls.json')
+  fetch('https://raw.githubusercontent.com/quicknotes-project/quicknotes-project.github.io/main/urls.json')
     .then((res) => res.json())
     .then((urls) => {
-      console.log(JSON.stringify(urls))
+      const { public_url } = urls.find(({ name }) => name === 'web-client')
+      if (public_url) {
+        window.location.replace(public_url)
+      }
     })
-    // .then((urls) => {
-    //   const { public_url } = urls.find(({ name }) => name === 'web-client')
-    //   if (public_url) {
-    //     window.location.replace(public_url)
-    //   }
-    // })
 </script>
 
 <body>
