@@ -1,3 +1,8 @@
 {
-  "debug": true
+  "name": "web-client",
+  "public_url": "https://80ac-212-45-15-105.eu.ngrok.io"
+}
+{
+  "name": "meta",
+  "public_url": "https://723b-212-45-15-105.eu.ngrok.io"
 }
