@@ -11,12 +11,14 @@
   fetch('./urls.json')
     .then((res) => res.json())
     .then((urls) => {
-      const { public_url } = urls.find(({ name }) => name === 'web-client')
-      if (public_url) {
-        window.location.replace(public_url)
-      }
       console.log(JSON.stringify(urls))
     })
+    // .then((urls) => {
+    //   const { public_url } = urls.find(({ name }) => name === 'web-client')
+    //   if (public_url) {
+    //     window.location.replace(public_url)
+    //   }
+    // })
 </script>
 
 <body>
